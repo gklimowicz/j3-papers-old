@@ -1,0 +1,26 @@
+git rm meeting/130/94-004r4.txt && ln -s ../../year/1994/94-004r4.txt meeting/130/94-004r4.txt
+git rm meeting/153/00-000.txt && ln -s ../../year/2000/00-000.txt meeting/153/00-000.txt
+git rm meeting/154/00-000.txt && ln -s ../../year/2000/00-000.txt meeting/154/00-000.txt
+git rm meeting/155/00-000.txt && ln -s ../../year/2000/00-000.txt meeting/155/00-000.txt
+git rm meeting/157/01-139r1.pdf && ln -s ../../year/2001/01-139r1.pdf meeting/157/01-139r1.pdf
+git rm meeting/161/02-000.txt && ln -s ../../year/2002/02-000.txt meeting/161/02-000.txt
+git rm meeting/162/02-000.txt && ln -s ../../year/2002/02-000.txt meeting/162/02-000.txt
+git rm meeting/172/05-000.txt && ln -s ../../year/2005/05-000.txt meeting/172/05-000.txt
+git rm meeting/173/05-000.txt && ln -s ../../year/2005/05-000.txt meeting/173/05-000.txt
+git rm meeting/174/05-000.txt && ln -s ../../year/2005/05-000.txt meeting/174/05-000.txt
+git rm meeting/191/09-307.txt && ln -s ../../year/2009/09-307.txt meeting/191/09-307.txt
+git rm meeting/193/10-198.txt && ln -s ../../year/2010/10-198.txt meeting/193/10-198.txt
+git rm meeting/202/13-006Ar1.txt && ln -s ../../year/2013/13-006Ar1.txt meeting/202/13-006Ar1.txt
+git rm meeting/204/14-134.txt && ln -s ../../year/2014/14-134.txt meeting/204/14-134.txt
+git rm meeting/208/15-006r1.txt && ln -s ../../year/2015/15-006r1.txt meeting/208/15-006r1.txt
+git rm meeting/214/17-183.txt && ln -s ../../year/2017/17-183.txt meeting/214/17-183.txt
+git rm meeting/215/17-255.txt && ln -s ../../year/2017/17-255.txt meeting/215/17-255.txt
+git rm meeting/216/18-155.pdf && ln -s ../../year/2018/18-155.pdf meeting/216/18-155.pdf
+git rm meeting/217/18-234.pdf && ln -s ../../year/2018/18-234.pdf meeting/217/18-234.pdf
+git rm meeting/218/18-265.txt && ln -s ../../year/2018/18-265.txt meeting/218/18-265.txt
+git rm meeting/221/20-010.pdf && ln -s ../../year/2020/20-010.pdf meeting/221/20-010.pdf
+git rm meeting/223/20-151.txt && ln -s ../../year/2020/20-151.txt meeting/223/20-151.txt
+git rm meeting/223/20-164.txt && ln -s ../../year/2020/20-164.txt meeting/223/20-164.txt
+git rm meeting/224/21-107r1.txt && ln -s ../../year/2021/21-107r1.txt meeting/224/21-107r1.txt
+
+git rm meeting/125/93-x3h5-SD2-A.pdf && ln -s ../../year/1993/93-x3h5-SD2-A.pdf meeting/125/93-x3h5-SD2-A.pdf
