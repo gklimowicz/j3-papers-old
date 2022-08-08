@@ -11,7 +11,7 @@ Consider the program
       END
 
 This program does not use any obsolescent syntax.  The
-DATA statement is a declaration construct in the 
+DATA statement is a declaration construct in the
 specification part of the main program.
 
 Next consider the program
@@ -58,6 +58,3 @@ Insert the constraint
 "C1108a (R1107)  If any statements appear in /block/,
  the first statement that appears in /block/ shall not
  be \obs{a DATA statement or} a FORMAT statement.
-
-
-

@@ -59,7 +59,7 @@ In a generic-programming context, one might declare
     ...
   end module M
 
-The utility here is obvious.  The British might say "bleeding obvious." 
+The utility here is obvious.  The British might say "bleeding obvious."
 The response from JOR to the proposals in 19-110r1 was "Huh?" even
 though there was an admonition in 19-110r1
 
@@ -226,5 +226,3 @@ which is not useful in a generic-programming context.
 Whether B being a scalar is prohibited (e.g., in a generic-programming
 context), results in declaring a scalar, or results in declaring a new
 entity called a rank-zero array, can be decided in
-
-

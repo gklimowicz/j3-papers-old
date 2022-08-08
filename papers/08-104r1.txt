@@ -102,8 +102,8 @@ if the assignment is defined.
 ANSWER:
 This is not standard conforming. According to 271:3-5
 
-If the actual argument is an array section having a vector subscript, the dummy 
-argument is not definable and shall not have the INTENT (OUT), INTENT (INOUT), 
+If the actual argument is an array section having a vector subscript, the dummy
+argument is not definable and shall not have the INTENT (OUT), INTENT (INOUT),
 VOLATILE, or ASYNCHRONOUS attributes.
 
 
@@ -115,5 +115,3 @@ SUBMITTED BY: Dick Hendrickson
 
 HISTORY: 08-104    m183  F03/0111 Submitted
          08-104r1  m183  Create answer
-
-

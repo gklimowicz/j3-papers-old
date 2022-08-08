@@ -211,7 +211,7 @@ I. Subobject designator and bnf fixes
               "<<or>> <designator>"
 
     [86:9-10] Delete these 2 lines.
-    
+
   In 10.9
 
     [178:30] "object name or a subobject designator"
@@ -639,6 +639,3 @@ II. Other subobject fixes
              part of a complex object"
 
     [300:43] (target) Add "nonpointer " before "<subobject>".
-
-
-

@@ -40,6 +40,6 @@ for F in "$@"; do
     | od -t uC \
     | awk -f "$CMD_DIR/non-ascii-histo.awk")"
     if [[ "$HISTO" != "" ]]; then
-        echo "$HISTO"
+        echo "$F: $HISTO"
     fi
 done

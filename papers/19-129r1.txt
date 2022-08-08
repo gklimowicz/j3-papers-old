@@ -8,7 +8,7 @@ Date: 2019-February-13
 
 NUMBER: F18/004
 TITLE: Program execution sequence with failed images
-KEYWORDS: Program execution, Termination of execution, Failed image, 
+KEYWORDS: Program execution, Termination of execution, Failed image,
 DEFECT TYPE: Erratum
 STATUS: J3 consideration in progress
 
@@ -54,6 +54,3 @@ HISTORY: 19-129   m218  Submitted
          19-129r1 m218  Revised
 
 ----------------------------------------------------------------------
-
-
-

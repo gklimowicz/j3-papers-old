@@ -1,5 +1,5 @@
 To: J3                                                          07-206r1
-From: Bill Long 
+From: Bill Long
 Subject: UTI 114 (p129): Co-array bounds
 Date: 2007 May 07
 References: J3/07-007r1
@@ -16,7 +16,3 @@ Edits to J3/07-007r1
 the first sentence of para. 10 add this sentence:
 "The values of the corresponding bounds and co-bounds shall be the same on
 each image.".
-
-
-
-

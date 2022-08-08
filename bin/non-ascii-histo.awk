@@ -9,7 +9,7 @@ END {
     for (i = 0; i <= 255; i++) {
         if (i in histo) {
             if (printed) printf " ";
-            printf "%d\\x%02x\\%03o:%d", i, i, i, histo[i]
+            printf "%02x%c:%d", i, i, histo[i]
             ++printed
         }
     }

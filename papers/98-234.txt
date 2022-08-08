@@ -3,8 +3,8 @@
 
                                                         J3/98-234
                                                         page 1 of 2
-	To: J3					      
-	From: R. Bleikamp/JOR		 	      
+	To: J3					
+	From: R. Bleikamp/JOR		 	
 	Subject: Environment Variable Edits / M.18b
 	Date: 98-11-10
 	
@@ -64,13 +64,13 @@
 		  When "length" is set to a value of zero, the
 		  specified environment variable was present, but had
 		  no value.
-  
+
 		  When "length" is set to a positive value, "value"
 		  contains the value of the specified environment
 		  variable.  If the value of "length" is less than
 		  LEN(value), "value" is padded on the right with blanks.
 		  If "length" is greater than LEN(value), the returned
-		  value was truncated from the right. 
+		  value was truncated from the right.
 
 	    trim_name (optional): shall be a scalar value of type
 	          logical.  It is an INTENT(IN) argument.
@@ -82,4 +82,4 @@
 		  environment variable's name.
 	
 	    Note: an environment variable is a named object, specifiable
-	          via some mechanism outside the scope of this standard.
+	          via some mechanism outside the scope of this standard.

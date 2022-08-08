@@ -15,7 +15,7 @@ become defective, so checks in later usage would be unnecessary.
 
 Edits to J3/07-007r1:
 
-[377:17-19] In 13.7.70 FORM_TEAM, in the description of the IMAGES 
+[377:17-19] In 13.7.70 FORM_TEAM, in the description of the IMAGES
 argument, replace
 
 ", and shall ... THIS_IMAGE()."
@@ -31,8 +31,3 @@ by
 it is invoked by the same statement on all images specified by the
 IMAGES argument. In the absence of an error condition, there is an
 implicit team synchronization after the team is formed."
-
-
-
-
-

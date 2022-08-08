@@ -14,7 +14,7 @@ o UNSIGNED is an integer type
 
 o an unsigned integer constant is a digit-string followed by the letter U
 	or the letter u , optionally followed by an underscore followed by
-	a kind parameter; the kind parameters shall match the integer 
+	a kind parameter; the kind parameters shall match the integer
 	kind parameters
 
 o  arithmetic expressions shall not have both signed and unsigned integer
@@ -30,7 +30,7 @@ o relational expressions shall deliver a result which depends on the
 	For example:
 		Consider a processor in which the kind numbers represent
 		   the number of bytes.
-  
+
 		-1_4 .LT. 17U_8    has the value .TRUE.
 
 		since -1 is less than 17.  -1_4 is not widened to -1_8

@@ -71,7 +71,7 @@ heading 9.5.3.2 Array element order insert
    arrays to specify sequences of subscripts or sequences of subscript
    section boundaries or strides, assuming V1, V2, and V3 are rank-one
    arrays are:
-   
+
      A(@V1, :, @V2 )   ! Section of A, whose rank is size(V1) + 1 +
                        ! size(V2).  The rank of <part-ref> is one.
      B(@V1, :, @V2: )  ! Section of B, whose rank is size(V1) + 1 +
@@ -113,5 +113,3 @@ an  element of the second array acts as if it were the second
 "<subscript-triplet> by "subscript triplet".
 
 [129:16 9.5.3.3.2 Subscript triplet, p1] Replace "<stride>" by "stride".
-
-

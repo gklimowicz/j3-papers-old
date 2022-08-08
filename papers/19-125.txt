@@ -154,7 +154,7 @@ additional work:
          GENERIC TYPE(T) => TYPE(this)
          CLASS (T), INTENT(IN) :: this
       END INTEGER FUNCTION
-      
+
 
 Ultimately the more fundamental issue is simply that, at least for the
 containers use case, the mechanism is simply not friendly to object
@@ -212,5 +212,3 @@ parameterized module paper would be some way to restrict the TYPE
 template parameters to be from some specific set of TYPE's.  E.g. only
 allow extensions of a base type, or from a list of specified types.  A
 common use case could be to restrict a TYPE parameter to be NUMERIC.
-
-

@@ -2,8 +2,8 @@
                                                         J3/98-163r1
                                                         page 1 of 2
 
-	To: J3					      
-	From: R. Bleikamp/JOR		 	      
+	To: J3					
+	From: R. Bleikamp/JOR		 	
 	Subject: Environment Variables / M.18b
 	Date: 98-05-28
 	
@@ -21,7 +21,7 @@
 	
 	  - Return a character string representing the value of
 	    the environment variable.  Some method of determining
-	    a non-existent variable (or unsupported functionality) 
+	    a non-existent variable (or unsupported functionality)
 	    is required.  Some way of determining which (if any)
 	    trailing blanks are significant, as well as if the
 	    value returned had to be truncated.
@@ -39,7 +39,7 @@
 		  the name of the environment variable of interest.
 	
 	    value: a scalar character variable (default kind),
-	          INTENT(OUT). 
+	          INTENT(OUT).
 	    	  the value of the environment variable specified by
 		  "name" is returned in this argument.  When the
 		  value is shorter than LEN(value), the value is blank
@@ -63,7 +63,7 @@
 
 		  When "length" is zero, the specified environment
 		  variable was present, but had no value.
-  
+
 	       					             J3/98-163r1
 	                     		 	             page 2 of 2
 
@@ -72,7 +72,7 @@
 		  of "length" is less than LEN(value), "value" is padded
 		  on the right with blanks.
 		  If "length" is greater than LEN(value), the returned
-		  value was truncated from the right. 
+		  value was truncated from the right.
 
 	    trim_name: a scalar logical value, INTENT(IN), OPTIONAL.
 		  When present with the value false, trailing blanks

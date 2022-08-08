@@ -50,7 +50,7 @@ of the penultimate paragraph, add "If the co-array is a dummy
 argument, its ultimate argument shall be the same co-array on every
 image."
 
-[314:18] At the end of 12.5.2.3 Argument association, add to the final  
+[314:18] At the end of 12.5.2.3 Argument association, add to the final
 paragraph:
 
 "The <<ultimate argument>> is the effective argument if the effective
@@ -89,4 +89,3 @@ replace "a co-array" by "co-array compatible and".
 Note to editor: If paper 07-103 (adds the CO_FINDLOC intrinsic) is
 adopted then the description of the CO_ARRAY argument to CO_FINDLOC
 should be modified in the same was as for CO_MINLOC above.
-

@@ -39,7 +39,7 @@ could be written
 If one had instead
 
   x(3*i+1) = x(3*i+1) * 42 + b(i)
-  
+
 a += or *= operator cannot be used to simplify things, but with a
 "pronoun" it could be written
 
@@ -48,5 +48,3 @@ a += or *= operator cannot be used to simplify things, but with a
 Of course, a statement could include definitions of several pronouns,
 which have statement scope, and a statement could not define a
 particular pronoun more than once.
-
-

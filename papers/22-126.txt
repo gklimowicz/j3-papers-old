@@ -17,7 +17,7 @@ template and getting entities from it could then be a two-step process:
 
 In addition to
 
-       INSTANTIATE :: T(param1, param2), ONLY: S_1 => S   
+       INSTANTIATE :: T(param1, param2), ONLY: S_1 => S
 
 or allow
 
@@ -120,5 +120,3 @@ value of the list element.
 Because declaration of components in dummy type parameter definitions
 would not imply order, and would be minimum, not exclusive requirements,
 this would not make it possible to weaken specification M5.
-
-

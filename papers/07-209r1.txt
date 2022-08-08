@@ -1,5 +1,5 @@
 To: J3                                                      07-209r1
-From: Bill Long 
+From: Bill Long
 Subject: UTI 112 (p197): Image control statement problems with OPEN
 Date: 2007 May 07
 References: J3/07-007r1
@@ -31,7 +31,3 @@ Edit to J3/07-007r1
 [217:1] In 9.4.5 OPEN statement, para. 4, line 1, after "connected,
 the" add "connections shall have the same connect team
 (9.4.5.17). The".
-
-
-
-
