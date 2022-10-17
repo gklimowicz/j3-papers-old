@@ -132,13 +132,19 @@ elif [[ "$CHAR_PROC" = "-u" ]]; then
     | tr '\r' '\n' \
     | sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' >"$TMP"
 
+    case "$(file "$TMP")" in
+        Unicode\ text.*UTF-8*)
+            # Already OK, as already Unicode and UTF-8
+        ;;
+        *)
+    esac
+
     NON_ASCII="$("$CMD_DIR/non-ascii-histo" "$TMP")"
 
     case "$NON_ASCII" in
         *x01*x02*x04*x05*)    # min-124.txt is trash
-            tr -d '[\000-\010\015\016-\037\177-\377]' <"$TMP" \
-            | sed -E \
-                -e 's/S20 items wi..*ll now contain a date of last/S20 items will now contain a date of last/';;
+            echo "This file needs to be cleaned up manually" 1>&2
+            exit 1;;
 
         *xb3*xb4*xc3*xc4*)
             sed -E $CLEAN_BOX1 $CLEAN_BOX2 \

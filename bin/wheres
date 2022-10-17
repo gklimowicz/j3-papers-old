@@ -7,7 +7,8 @@ set -e -u -o pipefail
 CMD="$(basename $0)"
 function usage {
     echo "Usage: $CMD [-fhnv] paper..." 1>&2
-    echo "-f        Print full INDEX line, not just paper and directory." 1>&2
+    echo "-a        Print INDEX data, not just paper and directory." 1>&2
+    echo "-e        Use exact arguments in search, not just paper number." 1>&2
     echo "-h        Print this help message." 1>&2
     echo "-n        Dry run. Don't execute commands." 1>&2
     echo "-v        Verbose. Print extra information if appropriate." 1>&2
@@ -16,11 +17,13 @@ function usage {
 }
 
 FIELDS="-f 1,4"
+EXACT=
 DRY_RUN=
 VFLAG=
-while getopts fhnv\? OPTCHAR; do
+while getopts aehnv\? OPTCHAR; do
     case $OPTCHAR in
-        f)  FIELDS="-f 1-9";;
+        a)  FIELDS="-f 1-9";;
+        e)  EXACT=1;;
         h)  usage; exit 0;;
         n)  DRY_RUN=1;;
         v)  VFLAG=1;;
@@ -35,12 +38,20 @@ case $# in
 esac
 
 for P in "$@"; do
-    echo "$P:"
-    case "$P" in
-        *.*)  grep -h "^$P\t" INDEX;;
-        *.)   egrep -h "^$P([r[0-9]+)*[^\t]*" INDEX;;
-        *)    egrep -h "^$P([r[0-9]+)*\.[^\t]*" INDEX;;
+    if [[ -n "$EXACT" ]]; then
+        BASE="$(basename "$P")"
+    else
+        BASE="$(basename "$P")"
+        BASE="${BASE/.*}"
+        BASE="${BASE/r[0-9]}"
+    fi
+
+    echo "$BASE:"
+    case "$BASE" in
+        *.)   egrep -h "^$BASE([r[0-9]+)*[^\t]*" INDEX;;
+        *.*)  grep -h "^$BASE\t" INDEX;;
+        *)    egrep -h "^$BASE([r[0-9]+)*\.[^\t]*" INDEX;;
     esac \
-        | cut $FIELDS \
-        | sed -e 's/^/  /'
+    | cut $FIELDS \
+    | sed -e 's/^/  /'
 done

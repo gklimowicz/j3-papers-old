@@ -56,7 +56,7 @@ for P in "$@"; do
     vecho 1 "  BASE_NAME='$BASE_NAME'"
 
 
-    MEETING="$(ls meetings/*/"$BASE_NAME".txt 2>/dev/null | sed -e 's;.*/\(.*\)/.*;\1;')"
+    MEETING="$(ls meetings/*/"$BASE_NAME".* 2>/dev/null | sed -e 's;.*/\(.*\)/.*;\1;')"
     vecho 1 "  MEETING='$MEETING'"
 
     if [[ "$MEETING" =~ "*" ]]; then
@@ -111,13 +111,11 @@ $(echo "$PAPER_MATCHES" | sed -e "s/\(.*\)\(r.*\)*\.txt/- [[j3-paper:&][\1\2 $SU
 
     fi
 
-    if [[ -n "$TFLAG" ]]; then
-        echo "**** TODO [[id:$UUID][$(basename "$ZK_FILE" .org)]]"
-    else
-        echo "$ZK_FILE"
-    fi
+    echo "[[id:$UUID][$(basename "$ZK_FILE" .org)]]"
 
     if [[ -n "$OFLAG" ]]; then
         open "$ZK_FILE"
     fi
 done
+
+emacsclient -e "(when (fboundp 'org-roam-update-org-id-locations) (org-roam-update-org-id-locations))"
