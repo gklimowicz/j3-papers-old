@@ -1,0 +1,120 @@
+papers/00-140r1.txt: 93“ 94”
+papers/00-349.txt: 92’ 93“ 94”
+papers/01-277.txt: 85…
+papers/01-282r1.txt: 85…
+papers/01-282r2.txt: 85…
+papers/01-292.txt: f1ñ
+papers/01-396.txt: 93“ 94”
+papers/02-128.txt: 85…
+papers/02-138.txt: 85…
+papers/02-138r1.txt: 85… 92’
+papers/02-138r2.txt: 85… 92’
+papers/02-203.txt: 93“ 94” 96–
+papers/02-203r1.txt: 93“ 94” 96–
+papers/02-203r2.txt: 93“ 94” 96–
+papers/02-221r1.txt: 96– b6¶
+papers/02-221r2.txt: 96– b6¶
+papers/02-242r2.txt: ab«
+papers/02-257.txt: 85…
+papers/02-257r1.txt: 85…
+papers/02-259.txt: 96–
+papers/02-259r1.txt: 96–
+papers/02-268.txt: 96–
+papers/02-273.txt: a9©
+papers/02-318.txt: 85… a3£ e9é ebë f9ù fbû
+papers/02-318r1.txt: 85… a3£ e9é ebë f9ù fbû
+papers/02-318r2.txt: 85… a3£ e9é ebë f9ù fbû
+papers/04-216.txt: a7§
+papers/04-225.txt: a7§
+papers/04-262.txt: a7§
+papers/04-265r1.txt: 85… 93“ 94”
+papers/04-302.txt: 85… 93“ 94”
+papers/04-367.txt: 93“ 94”
+papers/04-417.txt: a0 
+papers/04-417r1.txt: a0 
+papers/04-425.txt: 96–
+papers/05-158.txt: 15
+papers/05-231.txt: 80€ 9cœ 9d bb» bf¿ e2â efï
+papers/05-240.txt: 80€ 9cœ 9d bb» bf¿ e2â efï
+papers/05-241.txt: 80€ 9cœ 9d bb» bf¿ e2â efï
+papers/06-138.txt: 91‘ 92’ 93“ 94”
+papers/06-138r1.txt: 91‘ 92’
+papers/06-138r2.txt: 91‘ 92’
+papers/06-210r2.txt: 91‘ 92’ 93“ 94”
+papers/06-342.txt: 92’
+papers/06-358r1.txt: a0 
+papers/07-113r1.txt: b1±
+papers/07-116r2.txt: b7·
+papers/07-133r2.txt: b7·
+papers/07-158.txt: 92’
+papers/07-164.txt: 92’
+papers/07-164r1.txt: 92’
+papers/07-165.txt: 92’
+papers/07-184r1.txt: a1¡ bf¿
+papers/07-184r2.txt: a1¡ bf¿
+papers/07-190r2.txt: ad­
+papers/07-243r1.txt: 97—
+papers/07-278.txt: 96– 97—
+papers/07-278r1.txt: 96– 97—
+papers/07-288r1.txt: 93“ 94”
+papers/07-333.txt: 96–
+papers/07-343.txt: 96–
+papers/08-100.txt: 96–
+papers/08-100r1.txt: 96–
+papers/08-133.txt: 91‘ 92’ 93“ 94”
+papers/08-133r1.txt: 92’
+papers/08-139.txt: 93“ 94” 96–
+papers/08-154.txt: a0  c2Â
+papers/08-154r1.txt: a0  c2Â
+papers/08-212.txt: 92’
+papers/08-252r1.txt: e7ç
+papers/09-154.txt: 92’
+papers/10-144.txt: 91‘ 92’
+papers/10-256.txt: 96–
+papers/11-100.txt: 96–
+papers/11-231.txt: c9É
+papers/11-234r2.txt: bb» bf¿ efï
+papers/11-241.txt: 81
+papers/12-102r1.txt: bb» bf¿ efï
+papers/12-130r1.txt: a0  c2Â
+papers/12-167r1.txt: 80€ 9cœ 9d e2â
+papers/12-171.txt: 80€ 8cŒ 93“ a2¢ bb» bf¿ e2â efï
+papers/12-174r1.txt: bb» bf¿ efï
+papers/12-196.txt: 96–
+papers/12-202.txt: 80€ 8cŒ a2¢ bb» bf¿ e2â efï
+papers/13-006A.txt: 93“ 94”
+papers/13-202.txt: 80€ 8cŒ a2¢ bb» bf¿ e2â efï
+papers/13-237.txt: 92’ 93“ 94” 96–
+papers/13-253.txt: 80€ a2¢ bb» bf¿ e2â efï
+papers/13-262.txt: 92’ 93“ 94”
+papers/13-361.txt: bb» bf¿ efï
+papers/14-006A.txt: 93“ 94”
+papers/94-009r2.txt: b7·
+papers/94-009r3.txt: b7·
+papers/96-004-N.txt: 12
+papers/96-090r1.txt: a0 
+papers/96-112r1.txt: d2Ò d3Ó d5Õ
+papers/96-115r3.txt: b3³ b4´ bf¿ c0À c1Á c2Â c3Ã c4Ä c5Å d9Ù daÚ
+papers/96-137r2.txt: d2Ò d3Ó
+papers/96-164.txt: 13 14
+papers/97-149.txt: 81 84„ 94”
+papers/98-149.txt: a0 
+papers/98-169.txt: 84„ 8e 94” 99™
+papers/98-205.txt: d5Õ
+papers/99-103.txt: d5Õ
+papers/99-142.txt: 92’
+papers/agenda215.txt: 96–
+papers/agenda224.txt: bb» bf¿ efï
+papers/agenda226.txt: bb» bf¿ efï
+papers/agenda227.txt: bb» bf¿ efï
+papers/min-134.txt: 07
+papers/min-135.txt: 07
+papers/minutes216.txt: 92’ 93“ 94” 96–
+papers/minutes223.txt: 80€ 93“ 99™ bb» bf¿ e2â efï
+papers/papers141.txt: 1a
+
+
+
+
+Done manually:
+papers/min-124.txt: 01 02 04 05 07 08 0e 11 14 17 19 1c 80€ 81 83ƒ 85… 89‰ 8e 94” a0  a4¤ a5¥ aaª b0° b2² b6¶ baº caÊ ceÎ d3Ó e0à e2â e5å f3ó f9ù

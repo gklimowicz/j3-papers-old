@@ -1,0 +1,19 @@
+papers/05-231.txt:               Unicode text, UTF-8 (with BOM) text
+papers/05-240.txt:               Unicode text, UTF-8 (with BOM) text
+papers/05-241.txt:               Unicode text, UTF-8 (with BOM) text
+papers/08-154.txt:               news or mail text, Unicode text, UTF-8 text
+papers/08-154r1.txt:             Unicode text, UTF-8 text
+papers/11-234r2.txt:             Unicode text, UTF-8 (with BOM) text
+papers/12-102r1.txt:             Unicode text, UTF-8 (with BOM) text
+papers/12-130r1.txt:             Unicode text, UTF-8 text
+papers/12-167r1.txt:             Unicode text, UTF-8 text
+papers/12-171.txt:               Unicode text, UTF-8 (with BOM) text
+papers/12-174r1.txt:             Unicode text, UTF-8 (with BOM) text
+papers/12-202.txt:               Unicode text, UTF-8 (with BOM) text
+papers/13-202.txt:               Unicode text, UTF-8 (with BOM) text
+papers/13-253.txt:               Unicode text, UTF-8 (with BOM) text
+papers/13-361.txt:               Unicode text, UTF-8 (with BOM) text
+papers/agenda224.txt:            Unicode text, UTF-8 (with BOM) text
+papers/agenda226.txt:            Unicode text, UTF-8 (with BOM) text
+papers/agenda227.txt:            Unicode text, UTF-8 (with BOM) text
+papers/minutes223.txt:           Unicode text, UTF-8 (with BOM) text
