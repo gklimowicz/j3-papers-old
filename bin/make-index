@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-trap "exit 1" HUP INT QUIT TERM
+TMP="$(mktemp "INDEX.tmp.XXXXXX")"
+
+trap 'rm -f "$TMP"; exit 1' HUP INT QUIT TERM
 
 set -e -u -o pipefail
 
@@ -30,6 +32,9 @@ case $# in
     *)  ;;
 esac
 
+# Put the data in a temporary file, and copy it out
+# at the end. This leaves original intact if we
+# interrupt this long-running command.
 find "$@" \( -type f -o -type l \) \
       '(' -name "*.ascii" \
           -o -name "*.doc*" \
@@ -59,4 +64,6 @@ find "$@" \( -type f -o -type l \) \
           -o -name "*.xsl*" ')' \
       -print0 \
 | xargs -0 bin/print-index-line \
-| sort -t $'\t' -k 1 -k 4
+| sort -t $'\t' -k 1 -k 4 >"$TMP"
+cat "$TMP" >INDEX
+rm "$TMP"
