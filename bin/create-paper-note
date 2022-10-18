@@ -65,7 +65,7 @@ for P in "$@"; do
     fi
 
 
-    SUBJECT="$(grep Subject: papers/$BASE_NAME.txt | sed -e 's/Subject:  *//' -e 's/  *$//' -e 's/:/-/g')"
+    SUBJECT="$(grep Subject: papers/$BASE_NAME.txt | sed -e 's/Subject:  *//' -e 's/  *$//' -e 's;[/:][/:]*;-;g')"
     vecho 1 "  SUBJECT='$SUBJECT'"
 
     if [[ "$SUBJECT" = "" ]]; then
@@ -93,8 +93,6 @@ for P in "$@"; do
 * Discussion
 Move:
 Second:
-
-
 
 
 * References
