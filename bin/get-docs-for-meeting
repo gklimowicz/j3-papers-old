@@ -86,14 +86,17 @@ fi
 ERR=0
 for M in "$@"; do
     case "$M" in
-        ??) M="0$M";;
+        [0-9][0-9]) M="0$M";;
+        [0-9][0-9][0-9]) ;;
+        [0-9][0-9][0-9][a-d]) ;;
+        *)  echo "Invalid meeting number $M" 2>&1
+            ERR=1
+            continue;;
     esac
 
-    if [[ ! -d "meetings/$M" ]]; then
-        mkdir "meetings/$M"
-    fi
     MEETING_DIR="meetings/$M"
     MEETING_NO=${M/#0/}
+    mkdir -p "$MEETING_DIR"
 
     vecho 1 $MEETING_DIR:
     vecho 2 "    MEETING_DIR=$MEETING_DIR MEETING_NO=$MEETING_NO"
@@ -117,17 +120,15 @@ for M in "$@"; do
 
         # Figure out the correct 4-digit year number
         case "$FILENAME" in
-            [012]*)  Y4="20$(dirname "$FILENAME")";;
+            [0-5]*)  Y4="20$(dirname "$FILENAME")";;
             [89]*)   Y4="19$(dirname "$FILENAME")";;
             *)  echo "$CMD: Can't find 4-digit year for '$FILENAME'" 1>&2
                 continue;;
         esac
 
-        if [[ ! -d "years/$Y4" ]]; then
-            mkdir "years/$Y4"
-        fi
+        mkdir -p "years/$Y4"
 
-        # Fetch the file into the years directory
+        # Fetch the file into the papers directory
         URL="https://j3-fortran.org/doc/year/$FILENAME"
         YTARGET="years/$Y4/$PAPER_NAME"
         MTARGET="$MEETING_DIR/$PAPER_NAME"

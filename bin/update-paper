@@ -62,16 +62,9 @@ PAPER_NAME="$(basename "$PTARGET")"
 vecho 2 "  URL='$URL' PAPER_NAME='$PAPER_NAME'"
 vecho 2 "  YTARGET='$YTARGET' MTARGET='$MTARGET' PTARGET='$PTARGET'"
 
-if [[ ! -e "$PTARGET" ]]; then
-    echo "$PTARGET added."
-elif [[ ! -w "$PTARGET" ]]; then
+if [[ ! -w "$PTARGET" ]]; then
     # Make files writable for updates
     chmod +w "$PTARGET"
-fi
-
-if ! curl --fail -Ss "$URL" -o "$PTARGET" >/dev/null 2>&1; then
-    echo "Can't fetch '$URL'" 1>&2
-    exit 1
 fi
 
 case "$PAPER_NAME" in
