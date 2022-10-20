@@ -62,7 +62,7 @@ PAPER_NAME="$(basename "$PTARGET")"
 vecho 2 "  URL='$URL' PAPER_NAME='$PAPER_NAME'"
 vecho 2 "  YTARGET='$YTARGET' MTARGET='$MTARGET' PTARGET='$PTARGET'"
 
-if [[ ! -w "$PTARGET" ]]; then
+if [[ -e "$PTARGET" ]] && [[ ! -w "$PTARGET" ]]; then
     # Make files writable for updates
     chmod +w "$PTARGET"
 fi

@@ -116,4 +116,4 @@ $(echo "$PAPER_MATCHES" | sed -e "s/\(.*\)\(r.*\)*\.txt/- [[j3-paper:&][\1\2 $SU
     fi
 done
 
-emacsclient -e "(when (fboundp 'org-roam-update-org-id-locations) (org-roam-update-org-id-locations))"
+emacsclient -e "(when (fboundp 'org-roam-update-org-id-locations) (org-roam-update-org-id-locations))" >/dev/null

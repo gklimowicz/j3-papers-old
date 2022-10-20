@@ -143,8 +143,12 @@ done
 rm -f $DOCS_HTML
 
 if [[ -n "$INDEX" ]]; then
-    echo "Remaking INDEX..."
-    $BIN/make-index years meetings papers
+    if  [[ "papers" -nt "INDEX" ]]; then
+        echo "Remaking INDEX..."
+        $BIN/make-index years meetings papers
+    else
+        echo "INDEX is up to date."
+    fi
 fi
 
 exit $ERR
