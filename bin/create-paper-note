@@ -52,11 +52,20 @@ for P in "$@"; do
         continue
     fi
 
-    BASE_NAME="$(echo "$PAPER_MATCHES" | sed -e 's/r[0-9]*\././' -e 's/\.[^.]*//'| sort -u)"
+    BASE_NAME="$(echo "$PAPER_MATCHES" | sed -n -e 's/r[0-9]*\././' -e '1s/\.[^.]*//p')"
     vecho 1 "  BASE_NAME='$BASE_NAME'"
 
+    if [[ -f "$BASE_NAME.txt" ]]; then
+        PREFERRED_SUFFIX=txt
+    elif [[ -f "$BASE_NAME.pdf" ]]; then
+        PREFERRED_SUFFIX=pdf
+    else
+        PREFERRED_SUFFIX=txt
+    fi
+    vecho 1 "  PREFERRED_SUFFIX='$PREFERRED_SUFFIX'"
 
-    MEETING="$(ls meetings/*/"$BASE_NAME".* 2>/dev/null | sed -e 's;.*/\(.*\)/.*;\1;')"
+
+    MEETING="$(ls meetings/*/"$BASE_NAME".* 2>/dev/null | sed -n -e '1s;.*/\(.*\)/.*;\1;p')"
     vecho 1 "  MEETING='$MEETING'"
 
     if [[ "$MEETING" =~ "*" ]]; then
@@ -65,7 +74,11 @@ for P in "$@"; do
     fi
 
 
-    SUBJECT="$(grep Subject: papers/$BASE_NAME.txt | sed -e 's/Subject:  *//' -e 's/  *$//' -e 's;[/:][/:]*;-;g')"
+    if [[ "$PREFERRED_SUFFIX" = "txt" ]]; then
+        SUBJECT="$(grep Subject: papers/$BASE_NAME.txt | sed -e 's/Subject:  *//' -e 's/  *$//' -e 's;[/:][/:]*;-;g')"
+    else
+        SUBJECT=
+    fi
     vecho 1 "  SUBJECT='$SUBJECT'"
 
     if [[ "$SUBJECT" = "" ]]; then
@@ -96,7 +109,7 @@ Second:
 
 
 * References
-$(echo "$PAPER_MATCHES" | sed -e "s/\(.*\)\(r.*\)*\.txt/- [[j3-paper:&][\1\2 $SUBJECT]]/")
+$(echo "$PAPER_MATCHES" | sed -e "s/\(.*\)\(r.*\)*\.*/- [[j3-paper:&][\1\2 $SUBJECT]]/")
 
 
 * Links")"
@@ -112,8 +125,8 @@ $(echo "$PAPER_MATCHES" | sed -e "s/\(.*\)\(r.*\)*\.txt/- [[j3-paper:&][\1\2 $SU
     echo "[[id:$UUID][$(basename "$ZK_FILE" .org)]]"
 
     if [[ -n "$OFLAG" ]]; then
-        open "$ZK_FILE"
+        $ECHO open "$ZK_FILE"
     fi
 done
 
-emacsclient -e "(when (fboundp 'org-roam-update-org-id-locations) (org-roam-update-org-id-locations))" >/dev/null
+$ECHO emacsclient -e "(when (fboundp 'org-roam-update-org-id-locations) (org-roam-update-org-id-locations))"
