@@ -96,6 +96,7 @@ for P in "$@"; do
         TEXT="$(echo ":PROPERTIES:
 :ID:       $UUID
 :END:
+#+title: ${ZK_FILE/.org}
 #+date: [$(date '+%F %a %H:%M')]
 #+setupfile: setupfile.org
 #+filetags: :#$MEETING:
