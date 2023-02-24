@@ -147,7 +147,7 @@ if [[ -n "$INDEX" ]]; then
         echo "Remaking INDEX..."
         $BIN/make-index years meetings papers
     else
-        echo "INDEX is up to date."
+        echo "Everything is up to date."
     fi
 fi
 
