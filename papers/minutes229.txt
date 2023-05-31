@@ -1,0 +1,318 @@
+InterNational Committee for Information Technology Standards (INCITS)
+Secretariat: Information Technology Industry Council (ITI)
+700 K Street NW, Suite 600, Washington, DC 20001
+www.incits.org
+
+PL22.3-2022-00028-m229-draft-minutes.txt
+
+INCITS/Fortran Meeting #229 Draft Minutes
+
+February 21 - 24, 2022, Berkeley, CA
+
+Meeting #229 is a hybrid (mixed-mode) meeting: in-person in Berkeley, CA 
+with virtual option via Zoom
+ 
+
+I. Tuesday, February 21, 2023 -- 8:00AM - 5:00PM PT (UTC-7)
+--------------------------------------------------------------
+   1. Working Breakfast
+      1. Visitor badge pick-up
+   2. Opening Business - R. Budiardja (8:30AM)
+      1. INCITS Code of Conduct 
+         http://www.incits.org/standards-information/policies
+      2. INCITS Patent Policy and Antitrust 
+         http://www.incits.org/standards-information/legal-info
+      3. INCITS Membership Outreach Efforts 
+         Follow INCITS Social Media (LinkedIn, Twitter, Facebook) by  
+         clicking on the icons at the top INCITS home page on each 
+         corresponding social media platform, and/or go to  
+         https://www.qrfy.com/kQmnk3vtfV (INCITS social media landing 
+         page)
+      4. Beginning membership report - L. Menard
+
+    Total of 14 member organizations with voting status, 13 are 
+    represented here.  A majority vote is 8.
+    There are 28 individuals who attended
+         INCITS Fortran Members attending their first meeting - None
+         INCITS Fortran members attaining voting rights at this 
+           meeting - None
+         INCITS Fortran members losing voting rights (attendance or 
+           letter ballots) - None
+         INCITS Fortran memberships resigned in 2023 - Two; Department 
+           of Energy and Robert Corbett
+         INCITS Fortran members in ballot jeopardy (missed 2 of 3 
+           non-accelerated letter ballots) - None
+         INCITS Fortran members in attendance jeopardy (missed 2 of 
+           3 meetings) - None
+     
+      Attendance at Meeting 229:
+    AMD                      Rich Bleikamp, Brian Cornille
+    ARM                      Nathan Sircombe
+    Dancing Bear Software    Gary Klimowicz, Ondrej Certik
+    HPE                      Bill Long
+    IBM Corporation          Daniel Chen
+    Intel Corporation        Lorri Menard, Jon Steidel
+    Lawrence Berkeley National Laboratory
+                             Damian Rouson, Kate Rasmussen, 
+                             Brad Richardson
+    Lawrence Livermore National Laboratory
+                             Craig Rasmussen
+    Lionel                   Steve Lionel, Malcolm Cohen, 
+                             Vipul Parekh
+    Los Alamos National Lab  (( did not attend ))
+    NASA                     Tom Clune
+    National Center for Atmospheric Research (NCAR) 
+                             John Reid, Magne Haveraaen
+    NVidia Corporation       Mark LeAir, Jeff Larkin
+    Oak Ridge National Labs  Reuben Budiardja
+
+    From INCITS:             Deborah Spittle
+
+    Guests:
+        Hugh Kadhem     (LBNL)
+        Jordan Welsman  (LBNL)
+        Aury Shafran    (Intel)
+        Dan Bonachea    (LBNL)
+
+
+      5. Beginning Treasurer's report -  J. Steidel
+         1. Reference: PL22.3-2023-00002-m229-23-125.txt
+      6. Approval of draft agenda - R. Budiardja 
+         1. Reference document:  PL22.3-2023-00001-m229-draft-agenda.txt
+		1. Motion: K. Rasmussen/Lionel  
+            2. Passed Unanimous Consent (UC)
+      7. Approval of Meeting 228 minutes - R. Budiardja
+         1. Reference document:  PL22.3-2022-00097-m228-minutes.txt
+		1. Motion: Menard/Lionel
+            2. Passed UC
+   3. National Items
+      1. Liaison reports
+         1. INCITS report (if any) - R. Budiardja
+             1. Nothing more other than mentioned.
+         2. MPI Liaison report (if any) - J. Hammond
+             1. Reference:  PL22.3-2023-00003-m229-23-145.txt
+         3. OpenMP Liaison report (if any) - B. Long
+             1. Reference:  PL22.3-2023-00004-m229-23-122.txt 
+         4. flang Liaison report (if any) - M. LeAir
+             1. Reference:  PL22.3-2023-00005-m229-23-123.txt  
+         5. OpenACC Liaison report (if any) - J. Larkin
+             1. No significant movement.
+         6. fortran-lang/LFortran (if any) - O. Certik
+             1. Reference: PL22.3-2023-00006-m229-23-129.txt
+   4. Berkeley Local Arrangements - K. Rasmussen & D. Rousson
+   5. International Items - S. Lionel
+       1. By end of meeting we should have FDIS by end of this meeting.
+	 2. After that, we're off and running with F202y
+       3. June 2023 WG5 Local Arragements - N. Sircombe
+          1. Presented on all arrangements
+   6. Other Business - R. Budiardja
+      1. Comments from members
+          1. Vipul asked for clarification on membership from Debbie
+          2. Mark: Are we expecting to start at 8AM, Answer: 8:30
+          3. Is the working lunch going to be streamed (Yes)
+      2. Tutorials (if needed)
+      3. Subgroup Heads
+          1. HPC     Bill Long
+          2. Data    Malcolm Cohen
+          3. Generic Tom Clune
+          4. JoR     Rich Bleikamp
+          5. Edit    Malcolm Cohen
+          6. Interp  Malcolm Cohen
+
+       Recessed for subgroups.
+
+   7. Subgroup Meetings
+   8. Working Lunch - Flang focus group (12:00PM)
+   9. Subgroup Meetings
+  10. Subgroup Reports (4.30PM)
+      1. Motion PL22.3-2023-00007-m229-23-110.txt
+         1. Lionel/Clune
+         2. Unanimous Consent
+
+  Recess: 5:00	  
+   
+II. Wednesday, February 22, 2023 -- 8:00AM - 5:00PM PT (UTC-7)
+----------------------------------------------------------
+   1. Working Breakfast
+   2. F2023 / F02Y Plenary - subgroup heads (8:30AM)
+
+     1. Generics
+        1. Motion PL22.3-2023-00008-m229-23-103r1.txt
+           1. "Generics formal requirements"
+           2. Clune/Richardson
+           3. Roll call vote:
+              1. Yes   11
+              2. No     1
+              3. Absent 2
+
+     2. JoR
+        1. Motion PL22.3-2023-00009-m229-23-137.txt
+           1. "Disposition of JoR DIS Comments"
+           2. Lionel/Klimowicz
+           3. Unanimous consent
+
+    3. Edit
+       1. Motion PL22.3-2023-00010-m229-23-128.txt
+           1. "Normative references" 
+           2. Cohen/Clune
+           3. Unanimous consent
+	
+       2. Motion PL22.3-2023-00011-m229-23-135.txt
+           1. "Comments about NOTEs" [Cohen]
+           2. Cohen/Klimowicz
+           3. Unanimous consent
+
+      3. Motion PL22.3-2023-00012-m229-23-136.txt
+           1. "Responses to some more comments" [Cohen]
+           2. Cohen/Menard
+           3. Unanimous consent
+
+    4. Interp
+       1. No business today
+
+    5. Data
+       1. No business today
+
+    6. HPC
+       1. Motion PL22.3-2023-00013-m229-23-132.txt
+           1. "Disposition of DIS comments related to 22-199"
+           2. Long/Steidel
+           3. Unanimous consent
+
+       2. Motion PL22.3-2023-00014-m229-23-133.txt
+           1. "Disposition of DIS comments related to J3/22-200."
+           2. Long/Cohen
+           3. Unanimous consent
+
+       3. Motion PL22.3-2023-00015-m229-23-134.txt
+           1. "Disposition of DIS comments related to J3/22-201 "
+           2. Long/Lionel
+           3. Unanimous consent
+
+    Recessed to subgroups at 11:00
+
+   3. Tutorials (if needed)
+   4. Subgroup Meetings
+   5. Working Lunch - Flang Focus Group (12:00PM)
+   6. Subgroup Meetings
+   7. Subgroup Reports (4.30pm)
+
+    Recessed at 5:00
+
+
+III. Thursday, February 23, 2023 -- 8:00AM - 5:00PM PT (UTC-7)
+----------------------------------------------------------
+   1. Working Breakfast
+   2. F2023 / F02Y Plenary - subgroup heads (8:30AM)
+
+    1. JoR:
+        1. No business
+
+    2. Generic:
+        1. Motion PL22.3-2023-00016-m229-23-104r1.txt
+            1. "Formal specs for TEMPLATE"
+            2. Clune/Lionel
+            3. Roll call vote:
+               1. Yes      12
+               2. No        1
+               3. Absent    1
+
+    3. HPC:
+        1. Motion PL22.3-2023-00017-m229-23-100r2.txt
+           1. "Simplification of the C.7.8 example"
+           2. Long/Lionel
+           3. As amended on the floor, unanimous consent
+
+    4. Edit
+       1. Motion PL22.3-2023-00018-m229-23-139.txt
+           1. "Responses to **-009" 
+           2. Cohen/C. Rasmussen
+           3. Unanimous consent
+
+       2. Motion PL22.3-2023-00019-m229-23-140.txt
+           1. "Responses to **-010, 012, 013, 060."
+           2. Cohen/Clune
+           3. Unanimous consent
+
+       3. Motion PL22.3-2023-00020-m229-23-142.txt
+           1. "Miscellaneous typoe fixes"
+           2. Cohen/C. Rasmussen
+           3. Unanimous consent
+
+       4. Motion PL22.3-2023-00021-m229-23-143.txt
+           1. "Response to **-061"
+           2. Cohen/K. Rasmussen
+           3. Unanimous consent
+
+       5. Motion PL22.3-2023-00022-m229-23-144r1.txt
+           1. "Response to **-008" [Cohen]
+           2. (Cohen/Brad)
+           3. As amended on the floor, unanimous consent
+    5. Interp
+       1. Motion PL22.3-2023-00023-m229-23-114.txt
+           1. "Interp F23/004 on OUT_OF_RANGE"
+           2. Cohen/Menard
+           3. Unanimous consent
+
+   3. Tutorials (if needed)
+   4. Subgroup Meetings
+   5. Working Lunch - Flang Focus Group (12:00PM)
+   6. Subgroup Meetings
+   7. Subgroup Reports (4.30pm)
+
+Recessed 5:00 until Friday
+
+IV. Friday, February 23, 2023 -- 8:00AM - 3:00PM PT (UTC-7)
+----------------------------------------------------------
+   1. Working Breakfast
+   2. F2023 / F202Y Plenary - subgroup heads (8:30AM)
+
+    1. HPC
+       1. Discussion possible F202y HPC features
+
+    2. JoR
+       1. Discussion possible F202y JoR features
+	
+    3. Generics
+       1. Discussion additional F202y Generics features
+
+    4. Data
+       1. Discussion additional F202y Data features
+       2. Motion PL22.3-2023-00024-m229-23-149.txt
+           1. "More responses"
+           2. Cohen/C.Rasmussen
+           3. Unanimous consent
+
+    5. Edit
+        1. Motion PL22.3-2023-00025-m229-23-138r2.txt
+           1. "Responses to **-007, 011, 014, 016, 017, 019, 021, 
+               027, 052."
+           2. Cohen/Long
+           3. As amended on the floor, unanimous consent
+
+    5. Interp
+       1. Motion PL22.3-2023-00026-m229-23-118.txt
+           1. "Interp F23/005 on defined assignment/operators and 
+              dynamic type"
+           2. Cohen/Long
+           3. Unanimous consent
+
+       2. Motion PL22.3-2023-00027-m229-23-119.txt
+           1. "Interp F23-003 clarifying COMMON block names"
+           2. Cohen/Long
+           3. As amended on the floor, unanimous consent
+
+   3. Working Lunch - Flang focus group (12:00PM)
+   4. Closing Business
+      1. Future meetings - R. Budiardja
+           1. Next meeting is Manchester June 12-16, 2023
+               1. Will have virtual option
+	     2. October meeting: NASA (Maryland)
+      2. Ending Treasurer's report -  J. Steidel
+      3. Closing membership report - L. Menard
+           1. 13 members represented; one was absent
+               1. Total 23 PL22.3 individuals attended
+           2. There were 4 visitors to the meeting. 
+           3. No members in jeopardy.
+   5. Comments from Members
+   6. Adjournment 2:30 PM  PT
