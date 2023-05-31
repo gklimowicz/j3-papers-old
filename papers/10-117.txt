@@ -20,3 +20,4 @@ Edits to J3/09-007r3:
 constraint following "R503 <entity-decl> ..." (constraint C506),
 before "or an automatic" insert "a statement function, " in
 obsolescent font.
+

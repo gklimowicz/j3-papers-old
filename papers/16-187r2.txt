@@ -34,3 +34,4 @@ the result of calling CO_REDUCE can depend on the order
 of evaluations."
 
 {note describes the consequences of non-commutative operators}
+

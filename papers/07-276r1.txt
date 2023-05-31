@@ -7,7 +7,7 @@ References: J3/07-007r2 (N1678)
 Details
 
 We seem to have forgotten to specify that interfaces with a co-array
-dummy argument are not interoperable.
+dummy argument are not interoperable.  
 
 Edits:
 --------
@@ -16,3 +16,5 @@ Edits:
 to be interoperable in 15.3.7:
 
 "(3+) no dummy argument is a co-array,"
+
+

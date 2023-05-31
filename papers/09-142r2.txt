@@ -40,3 +40,4 @@ better located in 13. Paper 09-143r2 contains the edits for clause 13.
 Edits to 09-007:
 
 [118:1 - 119:Note 6.2] Delete all of 6.2.2 Lock variable.
+

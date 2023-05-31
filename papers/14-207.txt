@@ -73,3 +73,4 @@ likely that bad language yet remains.
 
 [502:22,24] C.4.4 Pointers in variable-definition contexts,
             "variable-definition" -> "variable definition", TWICE.
+

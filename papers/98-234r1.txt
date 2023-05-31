@@ -61,7 +61,7 @@
 
 	      If specified environment variable was present, but had no value,
 	      "length" is set to zero.
-
+  
 	 trim_name (optional): shall be a scalar of type logical.  It is an
 	      INTENT(IN) argument.  If "trim_name" is present with the value
 	      false, trailing blanks in "name" are considered significant if the

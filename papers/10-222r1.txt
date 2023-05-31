@@ -12,7 +12,7 @@ Requirement 1 of N1820 is
      conveniently obtain the address of a particular element within an
      assumed-rank, assumed-shape, allocatable, or pointer array.
 
-This can be done by adding an extra function.
+This can be done by adding an extra function. 
 
 
 EDITS to 10-165r2:
@@ -31,3 +31,5 @@ the rank <r> of the object. If the object is an array, the result is the
 address of the element of the object that the first <r> elements of the
 subscripts array would specify if used as subscripts. If the object is
 scalar, the result is its address and the subscripts array is ignored.
+
+

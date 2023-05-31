@@ -101,7 +101,7 @@ Here is a list of what is allowed in a CoCo expr:
  o  integer constants
  o  .true., .false.
  o  name
- o  +, -, *, /  (not **)
+ o  ÿ2D, -, *, /  (not **)
  o  ==, /=, <, >, <=, >=  (not .eq., .ne., .gt., etc.)
  o  .not., .and., .or., .eqv., .neqv.
 
@@ -139,3 +139,4 @@ processor defined.
      NOTE that the SHIFT and REPLACE files have the same number of lines as
      the input source.  Also, these files can be used as input source since
      the "?>" and "?*" CoCo comments can be recoginized as such.
+

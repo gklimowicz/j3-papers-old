@@ -66,7 +66,7 @@ the CALL statement in segment <P_{i+1}> completes.  This ensures that
 the execution of segment <P_i> on image P precedes execution of
 segment <Q_j> on image Q."
 
-In the second paragraph, replace "(locking)" by "(segment <P_{i+1}>)"
+In the second paragraph, replace "(locking)" by "(segment <P_{i+1}>)" 
 and replace "the work" by "work in segment <P_i>".
 
 Delete the third paragraph.
@@ -75,3 +75,6 @@ In the fourth paragraph, replace "third" by "second" and "(C)" by "(B)".
 
 [It is clearer to have the description in 8.5.5p3 use the same segment
 labels as the example in Note 8.39.]
+
+
+

@@ -19,7 +19,7 @@ assumed-shape array with the CONTIGUOUS attribute.  Because this is
 not trivial, the example is useful.
 
 The current A.2.1 really contains two examples, and would be better
-split into two subclauses.
+split into two subclauses.  
 
 
 Edits to N1869:
@@ -33,3 +33,6 @@ starting "The following example provides...": "A C function might need
 to create a contiguous copy of an array section, such as when the
 section is an actual argument corresponding to a dummy argument with
 the CONTIGUOUS attribute."
+
+
+

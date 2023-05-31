@@ -84,7 +84,7 @@ is no syntax provided to declare procedure bindings.
 No code example here, just an explanation.
 
 A code that really is a coroutine, but can't actually be a coroutine
-because Fortran doesn't provide coroutines, uses "reverse communication."
+because Fortran doesn't provide coroutines, uses "reverse communication." 
 I.e., whenever it needs the client to do some work, it returns to the
 client.
 
@@ -126,3 +126,5 @@ constants. The ones that have no meaning to the client would be PRIVATE.
 When the code uses an enumeration type instead, it would be desirable that
 it be possible to declare that enumerators that have the same purpose
 as the private named constants would have, are private.
+
+

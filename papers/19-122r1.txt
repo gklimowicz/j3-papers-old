@@ -57,7 +57,7 @@ One simple use case is presented below.  An extended use case appears in
 the accompanying PDF, which is a significant revision of the paper that
 was removed from the server.
 
-There is a companion pdf.gz for this paper.  This paper is a summary.
+There is a companion pdf.gz for this paper.  This paper is a summary. 
 Read the PDF, which is a complete proposal, cast in the form of a TS,
 but without edits.
 
@@ -195,3 +195,5 @@ It is possible that some of the mechanisms proposed here may be useful
 
 It does not seem like the sort of mechanism that we would like to
 expose directly to Fortran programmers themselves.
+
+

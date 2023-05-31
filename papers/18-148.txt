@@ -2,7 +2,7 @@ To: J3                                                     J3/18-148
 From: Anton Schterenlikht
 Subject: Logical kinds, another real kind
 Date: 2018-February-15
-Reference: 18-122, 18-131, N2147
+Reference: 18-122, 18-131, N2147 
 
 Introduction
 ------------
@@ -44,3 +44,5 @@ Section 16.10.2.25 REAL32, REAL64, and REAL128, 1st sentence, insert
 "The values of these default integer scalar named constants shall be
 those of the kind type parameters that specify a REAL type whose
 storage size expressed in bits is 16 32, 64, and 128 respectively."
+
+

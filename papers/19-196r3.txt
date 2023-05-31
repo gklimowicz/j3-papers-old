@@ -110,3 +110,10 @@ CALL SPLIT( STRING, WORD, SET)
 PRINT *, STRING, WORD, SET
 
 prints first,second,third first  second third  ,;
+
+
+
+
+
+
+

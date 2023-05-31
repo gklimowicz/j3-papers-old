@@ -90,7 +90,7 @@ Introduction:
        < do something with e >
        next(I)
    end loop
-
+    
 
 
 Containers and Fortran:
@@ -223,3 +223,28 @@ the following would be of some value even without the others:
 
 4) Provide an intrinsic COMPARE that arbitrarily (but consistently)
    orders two pointers with the same declared type.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

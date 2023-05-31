@@ -23,3 +23,4 @@ EDITS:
 194:19+ add paragraph:
 A child data transfer statement shall not specify the ID=,
 POS=, or REC= specifiers in an I/O control list.
+

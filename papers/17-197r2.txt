@@ -40,3 +40,7 @@ representable in the variable."
 
 [146:25] In the new p2, replace "This subclause applies" with
 "The rest of this subclause applies"
+
+
+
+

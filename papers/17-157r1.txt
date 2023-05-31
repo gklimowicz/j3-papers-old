@@ -24,3 +24,4 @@ Replace constraint C897 with
   "IMPORT, NONE shall not appear in the scoping unit of a submodule."
 
 ===END===
+

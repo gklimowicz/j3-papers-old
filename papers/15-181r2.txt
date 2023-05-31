@@ -40,3 +40,4 @@ a collective counterpart to the "all" intrinsic function:
     END FUNCTION both
   END SUBROUTINE co_all
 "
+

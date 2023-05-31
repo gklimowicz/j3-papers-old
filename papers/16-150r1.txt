@@ -19,3 +19,4 @@ Surely, the intention is per image, not per program.
 [210:10] change "program" to "image"
 
 {state correct scope of external unit values}
+

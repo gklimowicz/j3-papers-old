@@ -32,7 +32,7 @@ This would seem to be not useful and likely to lead to further errors.
 Was it intended to permit the A argument of CO_BROADCAST to have an
 ultimate pointer component?
 
-ANSWER:
+ANSWER: 
 
 Yes, this was intended. Otherwise, individual CO_BROADCAST executions
 would be required for every other component; this would be very
@@ -48,3 +48,5 @@ HISTORY: 21-167   m224  Submitted
          21-167r1 m224  Selected alternative answer.
 
 ----------------------------------------------------------------------
+
+

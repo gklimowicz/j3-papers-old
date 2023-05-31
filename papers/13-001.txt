@@ -530,7 +530,7 @@ ADVISORY MEMBERS
 
 
 
-INCITS Secretariat
+INCITS Secretariat 
 
 ITIC
 
@@ -639,3 +639,4 @@ Liaison from: WG5/Japan
 
 
 -------------------------
+

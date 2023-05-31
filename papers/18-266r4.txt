@@ -161,3 +161,8 @@ Adding REDUCE will:
       offloading to target processors
     - Eliminate explicit synchronization
     - Reduce need for explicit temporaries
+
+
+
+
+

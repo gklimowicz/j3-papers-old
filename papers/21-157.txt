@@ -153,3 +153,7 @@ to any <consequent-arg>, for example if coindexed objects are prohibited as
 an actual argument they are also prohibited as a consequent argument.
 
 ===END===
+
+
+
+

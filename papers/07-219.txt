@@ -26,3 +26,5 @@ INTEGER :: A(N), IND(N)
 DO CONCURRENT (I=1:M)
     A(IND(I)) = I
 END DO
+
+

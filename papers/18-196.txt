@@ -20,3 +20,5 @@ Delete "The inquiry function IEEE_SUPPORT_HALTING can be used to inquire
         whether this facility is available."
 
 ===END===
+
+

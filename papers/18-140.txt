@@ -5,7 +5,7 @@ Date: 2018-February-15
 
 Reference: 18-007
 
-19.5.2.2 says, "Unless a pointer is initialized (explicitly or by
+19.5.2.2 says, "Unless a pointer is initialized (explicitly or by 
 default), it has an initial association status of undefined." This
 contrasts with ALLOCATABLE objects which have a default state
 of unallocated.
@@ -18,3 +18,6 @@ The proposal is to make the default association status of pointers
 be "disassociated" instead of "undefined". It remains possible for
 a pointer's association status to become undefined as described in
 19.5.2.4.
+
+
+

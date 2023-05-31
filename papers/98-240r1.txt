@@ -540,3 +540,4 @@ array,
              scalar that is not an array element or array element substring
              designator, the element sequence consists of the character storage
              units of the actual argument."
+

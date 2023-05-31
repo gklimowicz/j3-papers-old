@@ -11,7 +11,7 @@ Consider the program
       END
 
 This program does not use any obsolescent syntax.  The
-DATA statement is a declaration construct in the
+DATA statement is a declaration construct in the 
 specification part of the main program.
 
 Next consider the program
@@ -58,3 +58,6 @@ Insert the constraint
 "C1108a The \si{block} of a \si{block-construct} shall
         not begin with a FORMAT statement\obs{or a
         DATA statement}.
+
+
+

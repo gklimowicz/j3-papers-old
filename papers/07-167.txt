@@ -17,3 +17,5 @@ Edit for J3/07-007
 with a co-array ultimate component unless it is a dummy argument,
 declared in the main program, declared in the specification part of a
 module, or allocatable."
+
+

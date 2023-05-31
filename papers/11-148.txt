@@ -16,3 +16,4 @@ EDIT to N1838:
 paragraph:
 
 "An assumed-rank object may have the CONTIGUOUS attribute."
+

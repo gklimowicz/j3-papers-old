@@ -17,7 +17,7 @@
 	
 	  - Return a character string representing the value of
 	    the environment variable.  Some method of determining
-	    a non-existent variable (or unsupported functionality)
+	    a non-existent variable (or unsupported functionality) 
 	    is required.  Some way of determining which (if any)
 	    trailing blanks are significant, as well as if the
 	    value returned had to be truncated.
@@ -35,7 +35,7 @@
 		  the name of the environment variable of interest.
 	
 	    value: a scalar character variable (default kind),
-	          INTENT(OUT).
+	          INTENT(OUT). 
 	    	  the value of the environment variable specified by
 		  "name" is returned in this argument.  When the
 		  value is shorter than LEN(value), the value is blank
@@ -53,7 +53,7 @@
 		  the specified environment variable.
 		  When "length" is negative, the specified environment
 		  variable was not present or the processor does not
-		  support enviroment variables.
+		  support enviroment variables.  
 
 		  When "length" is zero, the specified environment
 		  variable was present, but had no value.  
@@ -65,7 +65,7 @@
 		  of "length" is less than LEN(value), "value" is padded
 		  on the right with blanks.
 		  If "length" is greater than LEN(value), the returned
-		  value was truncated from the right.
+		  value was truncated from the right. 
 
 	    trim_name: a scalar logical value, INTENT(IN), OPTIONAL.
 		  When present with the value false, trailing blanks
@@ -79,4 +79,4 @@
 	          via some mechanism outside the scope of this standard.
 	
 	Edits:
-	  Insert above text in chapter 13 in the obvious place.
+	  Insert above text in chapter 13 in the obvious place.

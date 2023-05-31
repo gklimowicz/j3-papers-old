@@ -22,3 +22,5 @@ associating entity..." insert a sentence:
   "The association is not affected by changes within the block to the
    values of variables used in subscript or substring range expressions
    within the selector."
+
+

@@ -99,3 +99,5 @@ Access-spec for enumerators
 each <enumerator-name> declared by that statement, and overrides any
 default accessibility specified by an <access-spec> in the ENUMERATION
 TYPE statement."
+
+

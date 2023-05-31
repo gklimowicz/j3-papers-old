@@ -83,7 +83,7 @@ like this would be permitted:
 > ## Unclear.
 > ## Could you be more specific?  Part 1 Section 7 is quite large.
 
-     Simply that you have to define what "+" means, and what ".and." means,
+     Simply that you have to define what "ÿ2D" means, and what ".and." means,
 etc.  But it looks like you've done that.
 
 #DE# OK.
@@ -116,3 +116,4 @@ processor to detect violations of syntax and constraints, along with those
 rules?
 
 #DE# Don't know.  I will ask X3J3 for guidance on this topic.
+

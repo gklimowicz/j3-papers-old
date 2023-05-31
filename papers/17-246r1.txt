@@ -103,3 +103,4 @@ Replace:
 with:
     ", truncated or padded according to the rules of {intrinsic
     assignment}"
+

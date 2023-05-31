@@ -9,7 +9,7 @@ Subj: Answer to interpretation # F90/000145
 NUMBER: F90/000145
 TITLE: Expressions in <type-spec> of a FUNCTION statement
 KEYWORDS: expression - specification, expression - initialization,
-          FUNCTION statement, host association, use association
+          FUNCTION statement, host association, use association 
 DEFECT TYPE: Erratum
 STATUS: J3 consideration in progress
 
@@ -119,3 +119,4 @@ HISTORY: 93-193   m126 submitted
                          approved (N1161)
          96-      m136 X3J3 ballot failed 15-1, WG5 approval removed.
          04-316   m168 Submitted for J3 vote.
+

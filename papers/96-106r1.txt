@@ -108,3 +108,4 @@
            (i) of type COMPLEX or LOGICAL;
           (ii) arrays; or
          (iii) characters of length other than one.
+

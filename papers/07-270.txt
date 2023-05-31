@@ -70,3 +70,5 @@ co-array".
 
 -----------------
 Similar edits for the other Collective Subroutine descriptions.
+
+

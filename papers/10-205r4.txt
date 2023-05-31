@@ -55,7 +55,7 @@ of this descriptor."
 "CFI_VERSION - an integer constant that encodes the version of the
 ISO_Fortran_binding.h header file containing this macro."
 
-   "NOTE 5.0+
+   "NOTE 5.0+ 
    The intent is that the version should be increased every time that
    the header is incompatibly changed, and that the version in a descriptor may
    be used to provide a level of upwards compatibility, by using
@@ -70,3 +70,4 @@ descriptor shall be defined with valid values before the descriptor is
 used to represent an object, and once defined the values of these
 members shall not be redefined or become undefined while the members
 of the descriptor are capable of being referenced."
+
