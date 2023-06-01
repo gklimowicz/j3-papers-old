@@ -476,8 +476,7 @@ M. Hoffert
                     proposed.
          Action:    Withdrawn.
      93-077 (93-006.000123):
-         Motion:    (Hirchert/ShepherdAZ% ¶€e0A¤R  *€ion:    (HirchertHóZÊå²+%L°ÊùâƒL¥ºx^ª
-    (Hirchert/S=  ”ƒ T”àÓåIT3…XHQMdQ!DdAV9S‰M”Îó^ªdªW}ÓW})  Adopt this item as
+         Motion:    (Hirchert/Shepherd)  Adopt this item as
                     proposed.
          Action:    Passed by unanimous consent with some
                     edits.
@@ -784,8 +783,7 @@ M. Hoffert
              can not delay other work.
      Wagener: From the discussion, it appears that we can
              say X3J3 strongly supports the answers that
-       AZ% ¶€e0A¤R  *ƒ the answers thatHóZÊå²+%L°ÊùâƒL¥ºx^ª answers that
-=  ”ƒ T”àÓåIT3…XHQMdQ!DdAV9S‰M”Îó^ª  ªW}ÓW}      Jeanne proposed and will support WG5 in this
+             Jeanne proposed and will support WG5 in this
              work.
      Martin: I have to submit these by February 28, so if
              anyone has any input get it to me before then.
@@ -1227,9 +1225,7 @@ Four Meeting Schedule for 1993: Meeting conventions:
              Post-Meeting Rolison, Cray
      135 Nov., 1995 -
              pre-meeting distribution deadline:
-           AZ% ¶€e0A¤R  *€ion deadline:
-  HóZÊå²+%L°ÊùâƒL¥ºx^ª deadline:
-    =  ”ƒ T”àÓåIT3…XHQMdQ!DdAV9S‰M”Îó^ª  ªW}ÓW}  Pre-Meeting Hoffert, HP
+             Pre-Meeting Hoffert, HP
              Post-Meeting Hirchert, U of ILL
 
      Martin: Distributes WG5 Documents
@@ -1444,7 +1440,7 @@ Freeman                                   Smith
                      phone: (215) 648-
 - - - - - - - -      4009                 - - - - - - - -
 - - - - - - - -      email:               - - - - - - - -
-- - - - - -          kelble%trprogb@t     -AZ% ¶€e0A¤R  *€    kelble%trprogHóZÊå²+%L°ÊùâƒL¥ºx^ª kelble%trprogb@=  ”ƒ T”àÓåIT3…XHQMdQ!DdAV9S‰M”Îó^ª -ªW}ÓW} - - - - -
+- - - - - -          kelble%trprogb@t     - - - - - -
                      renga.tredydev.u
 Maureen Hoffert      nisys.com            William Leonard
 Hewlett-Packard      fax: (215 648-       Harris Computer
@@ -1639,7 +1635,7 @@ Research             - - - - - - - -      Paoli
 RRC 4B-721           - - - - - - - -      PA 19301
 444 Hoes Lane        - - - - - -
 Piscataway                                phone: (215) 648-
-NJ 08854-4182        David R. LevineAZ% ¶€e0A¤R  *€182        David HóZÊå²+%L°ÊùâƒL¥ºx^ª        David R.=  ”ƒ T”àÓåIT3…XHQMdQ!DdAV9S‰M”Îó^ªeªW}ÓW}      4690
+NJ 08854-4182        David R. Levine      4690
                      Hewlett-Packard      email:
 phone: (201) 699-    Company              murp%trprogb@tre
 2272                 MS CHD02CS           nga.tredydev.uni
@@ -2073,7 +2069,7 @@ Paul St. Pierre      Hideo Wada
 110 Spit Brook       Software             - - - - - - - -
 Road ZKO2-3/N30      Division             - - - - - - - -
 Nashua               Fujitsu Limited      - - - - - -
-NHAZ% ¶€e0A¤R  *mited      - - - HóZÊå²+%L°ÊùâƒL¥ºx^ªd      - - - - =  ”ƒ T”àÓåIT3…XHQMdQ!DdAV9S‰M”Îó^ªHªW}ÓW} 03062             140 Miyamoto
+NH 03062             140 Miyamoto
                      Numazu-shi           Lexie Weaver
 phone: (617) 245-    Shizuoka             Intel Corp.
 9540                  410-03              M/S JF1-62
