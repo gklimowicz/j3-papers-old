@@ -37,8 +37,8 @@ esac
 export LC_ALL=C
 for F in "$@"; do
     HISTO="$(tr -d '[[:print:][:space:]]' <"$F" \
-    | od -t uC \
-    | awk -f "$CMD_DIR/non-ascii-histo.awk")"
+             | od -t uC \
+             | awk -f "$CMD_DIR/non-ascii-histo.awk")"
     if [[ "$HISTO" != "" ]]; then
         echo "$F: $HISTO"
     fi
