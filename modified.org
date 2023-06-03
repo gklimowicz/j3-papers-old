@@ -1732,6 +1732,13 @@ papers/min-124.txt
 
 
 * Remove Unicode byte order marks from UTF-8 files
+#+begin_example
+$ for F in papers/05-231.txt papers/05-240.txt papers/05-241.txt papers/11-234r2.txt papers/12-102r1.txt papers/12-171.txt papers/12-174r1.txt papers/12-202.txt papers/13-202.txt papers/13-253.txt papers/13-361.txt papers/agenda224.txt papers/agenda226.txt papers/agenda227.txt; do \
+    chmod +w "$F" \
+    && LC_ALL=C tr -d '\357\273\277' <"$F" | cpif "$F" \
+    && chmod -w "$F"; \
+done
+#+end_example
 
 papers/05-231.txt
 papers/05-240.txt
@@ -1748,3 +1755,26 @@ papers/agenda224.txt
 papers/agenda226.txt
 papers/agenda227.txt
 papers/minutes223.txt
+
+* Replace \x{FF}2D with plus sign
+#+begin_example
+C_ALL=C sed -E -i "" -e 's/[^[:print:]]2D/+/g' papers/96-055r1.txt \
+    papers/96-065.txt \
+    papers/96-067.txt \
+    papers/96-068.txt \
+    papers/96-156.txt \
+    papers/96-160.txt \
+    papers/96-162.txt \
+    papers/96-163.txt \
+    papers/97-104r2.txt
+#+end_example
+
+papers/96-055r1.txt
+papers/96-065.txt
+papers/96-067.txt
+papers/96-068.txt
+papers/96-156.txt
+papers/96-160.txt
+papers/96-162.txt
+papers/96-163.txt
+papers/97-104r2.txt
