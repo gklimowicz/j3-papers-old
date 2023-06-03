@@ -1729,3 +1729,22 @@ papers/96-164.txt
 
 * Manual cleanup of papers/min-124.txt (garbage chars removed)
 papers/min-124.txt
+
+
+* Remove Unicode byte order marks from UTF-8 files
+
+papers/05-231.txt
+papers/05-240.txt
+papers/05-241.txt
+papers/11-234r2.txt
+papers/12-102r1.txt
+papers/12-171.txt
+papers/12-174r1.txt
+papers/12-202.txt
+papers/13-202.txt
+papers/13-253.txt
+papers/13-361.txt
+papers/agenda224.txt
+papers/agenda226.txt
+papers/agenda227.txt
+papers/minutes223.txt
