@@ -1778,3 +1778,10 @@ papers/96-160.txt
 papers/96-162.txt
 papers/96-163.txt
 papers/97-104r2.txt
+
+* Replace ^U with section marks §
+#+begin_example
+$ sed -i "" -e 's/^U/§/' papers/05-158.txt
+#+end_example
+
+papers/05-158.txt
