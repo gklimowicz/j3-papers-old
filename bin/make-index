@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 
-TMP="$(mktemp "INDEX.tmp.XXXXXX")"
+set -u -o pipefail
 
-trap 'rm -f "$TMP"; exit 1' HUP INT QUIT TERM
-
-set -e -u -o pipefail
-
-CMD="$(basename $0)"
+CMD="$(basename "$0")"
+CMD_DIR="$(dirname "$0")"
 function usage {
     echo "Usage: $CMD [-hnv] meeting-number..." 1>&2
     echo "-h        Print this help message." 1>&2
@@ -32,38 +29,38 @@ case $# in
     *)  ;;
 esac
 
-# Put the data in a temporary file, and copy it out
-# at the end. This leaves original intact if we
-# interrupt this long-running command.
-find "$@" \( -type f -o -type l \) \
-      '(' -name "*.ascii" \
-          -o -name "*.doc*" \
-          -o -name "*.dvi" \
-          -o -name "*.f" \
-          -o -name "*.f90" \
-          -o -name "*.fif" \
-          -o -name "*.frm" \
-          -o -name "*.gif" \
-          -o -name "*.htm*" \
-          -o -name "*.ignore" \
-          -o -name "*.jpg" \
-          -o -name "*.JPG" \
-          -o -name "*.make" \
-          -o -name "*.msw" \
-          -o -name "*.o" \
-          -o -name "*.pdf" \
-          -o -name "*.png" \
-          -o -name "*.ppt*" \
-          -o -name "*.ps" \
-          -o -name "*.rtf" \
-          -o -name "*.tex" \
-          -o -name "*.t" \
-          -o -name "*.troff" \
-          -o -name "*.txt" \
-          -o -name "*.wpd" \
-          -o -name "*.xsl*" ')' \
-      -print0 \
-| xargs -0 bin/print-index-line \
-| sort -t $'\t' -k 1 -k 4 >"$TMP"
-cat "$TMP" >INDEX
-rm "$TMP"
+# Approach:
+#   1. Identify new or updated files (shouldn't they all be new?)
+#   2. Concatenate
+#      a. Old index with updated entries removed.
+#      b. Index lines for new or updated files.
+#   3. Sort by 1st and last fields and place result in temp index.
+#   4. If -v, show the diff.
+#   5. Replace the INDEX with the updated temp index.
+
+NEW_OR_UPDATED="$(find -L "$@" \( -type f -o -type l \) \
+                       -a \! \( -name "*.zip" -o -name "*.gz" \) \
+                       -a -newer INDEX \
+                       -print)"
+if [[ "$NEW_OR_UPDATED" = "" ]]; then
+    echo "INDEX is up to date."
+    exit 0
+fi
+
+DELETES="$(echo "$NEW_OR_UPDATED" \
+           | sed -e 's;.*/;;' -e 's;.*;-e /^&/d;g')"
+
+TMP="$(mktemp "INDEX.tmp.XXXXXX")"
+trap 'rm -f "$TMP"; exit 1' HUP INT QUIT TERM
+
+(sed $DELETES <INDEX; apply "$CMD_DIR/print-index-line" $NEW_OR_UPDATED) \
+    | sort -t $'\t' -k 1 -k 4 >"$TMP"
+
+if [[ -n "$VFLAG" ]]; then
+    echo "Diff: INDEX $TMP"
+    diff INDEX "$TMP"
+fi
+
+if [[ -z "$DRY_RUN" ]]; then
+    mv "$TMP" INDEX
+fi
