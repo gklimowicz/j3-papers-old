@@ -38,8 +38,8 @@ export LC_ALL=C
 for F in "$@"; do
     HISTO="$(tr -d '[[:print:][:space:]]' <"$F" \
              | od -t uC \
-             | awk -f "$CMD_DIR/non-ascii-histo.awk")"
+             | awk -f "$CMD_DIR/non-ascii-by-paper.awk")"
     if [[ "$HISTO" != "" ]]; then
-        echo "$F: $HISTO"
+        echo "$F $HISTO"
     fi
 done

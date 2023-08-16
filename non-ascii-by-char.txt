@@ -1,0 +1,48 @@
+xc4\304 7242  papers/96-115r3.txt
+xb3\263 738  papers/96-115r3.txt
+xc5\305 630  papers/96-115r3.txt
+x93\223 167  papers/00-140r1.txt papers/00-349.txt papers/01-396.txt papers/02-203.txt papers/02-203r1.txt papers/02-203r2.txt papers/04-265r1.txt papers/04-302.txt papers/04-367.txt papers/06-138.txt papers/06-210r2.txt papers/07-288r1.txt papers/08-133.txt papers/08-139.txt papers/12-171.txt papers/13-006A.txt papers/13-237.txt papers/13-262.txt papers/14-006A.txt papers/minutes216.txt papers/minutes223.txt papers/minutes228.txt
+x94\224 160  papers/00-140r1.txt papers/00-349.txt papers/01-396.txt papers/02-203.txt papers/02-203r1.txt papers/02-203r2.txt papers/04-265r1.txt papers/04-302.txt papers/04-367.txt papers/06-138.txt papers/06-210r2.txt papers/07-288r1.txt papers/08-133.txt papers/08-139.txt papers/13-006A.txt papers/13-237.txt papers/13-262.txt papers/14-006A.txt papers/97-149.txt papers/98-169.txt papers/minutes216.txt
+x96\226 97  papers/02-203.txt papers/02-203r1.txt papers/02-203r2.txt papers/02-221r1.txt papers/02-221r2.txt papers/02-259.txt papers/02-259r1.txt papers/02-268.txt papers/04-425.txt papers/07-278.txt papers/07-278r1.txt papers/07-333.txt papers/07-343.txt papers/08-100.txt papers/08-100r1.txt papers/08-139.txt papers/10-256.txt papers/11-100.txt papers/12-196.txt papers/13-237.txt papers/agenda215.txt papers/minutes216.txt
+x80\200 96  papers/05-231.txt papers/05-240.txt papers/05-241.txt papers/12-167r1.txt papers/12-171.txt papers/12-202.txt papers/13-202.txt papers/13-253.txt papers/minutes223.txt papers/minutes228.txt
+xe2\342 96  papers/05-231.txt papers/05-240.txt papers/05-241.txt papers/12-167r1.txt papers/12-171.txt papers/12-202.txt papers/13-202.txt papers/13-253.txt papers/minutes223.txt papers/minutes228.txt
+x92\222 61  papers/00-349.txt papers/02-138r1.txt papers/02-138r2.txt papers/06-138.txt papers/06-138r1.txt papers/06-138r2.txt papers/06-210r2.txt papers/06-342.txt papers/07-158.txt papers/07-164.txt papers/07-164r1.txt papers/07-165.txt papers/08-133.txt papers/08-133r1.txt papers/08-212.txt papers/09-154.txt papers/10-144.txt papers/13-237.txt papers/13-262.txt papers/99-142.txt papers/minutes216.txt
+xa0\240 50  papers/04-417.txt papers/04-417r1.txt papers/06-358r1.txt papers/08-154.txt papers/08-154r1.txt papers/12-130r1.txt papers/96-090r1.txt papers/98-149.txt
+xb4\264 40  papers/96-115r3.txt
+xc3\303 40  papers/96-115r3.txt
+xc2\302 36  papers/05-158.txt papers/08-154.txt papers/08-154r1.txt papers/12-130r1.txt papers/96-115r3.txt
+x9c\234 32  papers/05-231.txt papers/05-240.txt papers/05-241.txt papers/12-167r1.txt papers/minutes228.txt
+x9d\235 30  papers/05-231.txt papers/05-240.txt papers/05-241.txt papers/12-167r1.txt papers/minutes228.txt
+xa2\242 24  papers/12-171.txt papers/12-202.txt papers/13-202.txt papers/13-253.txt
+x85\205 23  papers/01-277.txt papers/01-282r1.txt papers/01-282r2.txt papers/02-128.txt papers/02-138.txt papers/02-138r1.txt papers/02-138r2.txt papers/02-257.txt papers/02-257r1.txt papers/02-318.txt papers/02-318r1.txt papers/02-318r2.txt papers/04-265r1.txt papers/04-302.txt
+xc1\301 16  papers/96-115r3.txt
+xb7\267 14  papers/07-116r2.txt papers/07-133r2.txt papers/94-009r2.txt papers/94-009r3.txt
+xd5\325 14  papers/96-112r1.txt papers/98-205.txt papers/99-103.txt
+x91\221 13  papers/06-138.txt papers/06-138r1.txt papers/06-138r2.txt papers/06-210r2.txt papers/08-133.txt papers/10-144.txt
+xa3\243 10  papers/02-318.txt papers/02-318r1.txt papers/02-318r2.txt
+xa7\247 8  papers/04-216.txt papers/04-225.txt papers/04-262.txt papers/05-158.txt
+xe9\351 6  papers/02-318.txt papers/02-318r1.txt papers/02-318r2.txt
+xeb\353 6  papers/02-318.txt papers/02-318r1.txt papers/02-318r2.txt
+xf9\371 6  papers/02-318.txt papers/02-318r1.txt papers/02-318r2.txt
+xfb\373 6  papers/02-318.txt papers/02-318r1.txt papers/02-318r2.txt
+x97\227 5  papers/07-243r1.txt papers/07-278.txt papers/07-278r1.txt
+xd2\322 5  papers/96-112r1.txt papers/96-137r2.txt
+xd3\323 5  papers/96-112r1.txt papers/96-137r2.txt
+x81\201 4  papers/11-241.txt papers/97-149.txt
+x8c\214 3  papers/12-171.txt papers/12-202.txt papers/13-202.txt
+x99\231 3  papers/98-169.txt papers/minutes223.txt
+xbf\277 3  papers/07-184r1.txt papers/07-184r2.txt papers/96-115r3.txt
+x84\204 2  papers/97-149.txt papers/98-169.txt
+xa1\241 2  papers/07-184r1.txt papers/07-184r2.txt
+xab\253 2  papers/02-242r2.txt
+xb6\266 2  papers/02-221r1.txt papers/02-221r2.txt
+x8e\216 1  papers/98-169.txt
+xa9\251 1  papers/02-273.txt
+xad\255 1  papers/07-190r2.txt
+xb1\261 1  papers/07-113r1.txt
+xc0\300 1  papers/96-115r3.txt
+xc9\311 1  papers/11-231.txt
+xd9\331 1  papers/96-115r3.txt
+xda\332 1  papers/96-115r3.txt
+xe7\347 1  papers/08-252r1.txt
+xf1\361 1  papers/01-292.txt
